@@ -1,0 +1,49 @@
+code {
+	background: #2db34a;
+	border-radius:6px;
+	color:#fff;
+	display: block;
+	font:14px/24px "Source Code Pro", Inconsolata;
+	padding:24px 15px;
+	text-align: center;
+}
+
+header,
+section,
+aside,
+footer {
+	margin: 0 1.5% 24px 1.5%;
+}
+
+header {
+	
+}
+.group:before, 
+.group:after {
+	content:"";
+	display: block;/* OR table */	
+}
+
+.group:after {
+	clear: both;
+}
+
+section {
+	width:63%;
+	float:left;
+
+
+}
+
+aside {
+	width: 30%;
+	float:right;
+
+
+}
+
+footer {
+	margin-bottom: 0;
+}
+
+

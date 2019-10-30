@@ -1,0 +1,48 @@
+/*
+=====================================================================================
+WOFF
+=====================================================================================
+We specify a .woff (Web Open Font Format) file which is the font format for use in 
+web pages. 
+Other extensions vendor specific formats such .ttf, .eot, .otf may also be added to 
+the src property of font-face seperated with comma's to improve fallback options.
+*/
+
+@font-face {
+font-family: 'WaltDisney';
+font-style: normal;
+font-weight: normal;
+src: url('fonts/walt/wds052801.woff') format('woff');
+}
+
+h2,
+p {
+	color:#555;
+	font: 13px/20px;
+}
+
+body {
+	font-family: WaltDisney, cursive;
+	font-size: 30px;
+}
+
+a {
+	color: #0087cc;
+}
+
+a:hover {
+	color:#ff7b29;
+}
+
+h2 {
+	font-size: 22px;
+	font-weight: bold;
+	margin-bottom: 6px;
+}
+
+.byline {
+	color:#9799a9;
+	/*font-family: Georgia, Times, "Times New Roman", serif;*/
+	font-style: italic;
+	margin-bottom: 18px;
+}
